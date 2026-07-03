@@ -1,119 +1,72 @@
-# 👤 Face Recognition System
+# Face Recogniton GUI-APP
 
-A **Face Recognition System** developed using **Python** and **OpenCV** that detects and recognizes human faces in real time using a webcam. The project demonstrates the use of computer vision techniques for face detection and recognition.
 
----
+[![Build Status](https://travis-ci.org/joemccann/dillinger.svg?branch=master)](https://www.youtube.com/channel/UCKvgGs-ALhvOq9u95PHXHNw)
 
-## 📌 Features
-
-- 📷 Real-time face detection using webcam
-- 👤 Face recognition of registered users
-- ⚡ Fast and accurate face identification
-- 🖥️ Live video processing
-- 🎯 Easy-to-use interface
-
----
-
-## 🛠️ Technologies Used
-
-- Python
-- OpenCV
-- NumPy
-- face_recognition
-- dlib
-
----
-
-## 📂 Project Structure
+# Live Demo
+```html
+https://www.youtube.com/embed/3EBdT-0gvu8
 
 ```
-Face-Recognition/
-│── images/
-│── models/
-│── main.py
-│── requirements.txt
-│── README.md
+
+
+# A very Simple Gui app for Face Detection 
+
+  - Collect Face Data
+  - Build Face Classifier 
+  - Detecte the face
+
+#  New Features!
+
+  - Add Emotion detection
+  - Fixed image loading in Linux 
+  
+  
+# Installation
+
+1 : Install the requirements .
+
+```sh
+$ pip install -r  requirements.txt
 ```
 
----
+2 : Run The App 
 
-## 🚀 Getting Started
-
-### Prerequisites
-
-- Python 3.8 or above
-- pip
-
-### Installation
-
-1. Clone the repository
-
-```bash
-git clone https://github.com/krashan97/Face-Recognition-Using-Python.git
+```sh
+$ python app-gui.py
 ```
 
-2. Navigate to the project folder
+# APP GUI
 
-```bash
-cd face-recognition
-```
+### Home Page
+![homepage](https://i.ibb.co/c62qvR2/home-page.png)
 
-3. Install the required libraries
+### Add a User <br>
+Add the user you want to train a classifier for <br>
+![page1](https://i.ibb.co/t8gdq6s/adduser.png)<br>
 
-```bash
-pip install -r requirements.txt
-```
 
-4. Run the application
+### Capture Data and Train Classifier<br>
+Capture Data From the face then train the classifier<br>
+![page2](https://i.ibb.co/D8JgYhN/capandtraindata.png)<br>
 
-```bash
-python main.py
-```
+### Users List<br>
+List of all the users<br>
+![page3](https://i.ibb.co/1KwfVVV/dropdown.png)<br>
 
----
+### Recognition <br>
+A webcam window will popup and start recognition proccess<br>
+![page4](https://i.ibb.co/sCtgDDC/4page.png)<br>
+>![Face Recognition](https://i.ibb.co/bNpC5wR/jack.png)<br>
+>![emotion](https://i.ibb.co/F7pdtjZ/emotion.png)<br>
+>![Age and Gender](https://i.ibb.co/9q1L7sD/age.png)<br>
 
-## 📦 Required Libraries
 
-```
-opencv-python
-numpy
-face_recognition
-dlib
-```
----
 
-## 🔄 Workflow
+<br><br>
 
-1. Load known face images.
-2. Encode facial features.
-3. Start the webcam.
-4. Detect faces in each frame.
-5. Compare detected faces with stored encodings.
-6. Display the recognized person's name on the screen.
+Made By ❤ : [JoeVenner](mailto:ylafrimi@gmail.com)<br>
+**Free Software, Hell Yeah!**
 
----
 
-## 💡 Future Improvements
 
-- Face attendance system
-- Database integration
-- Multiple face recognition
-- Email notifications
-- Face mask detection
-- Web-based deployment using Flask or Django
-
----
-
-## 👨‍💻 Author
-
-**Krashan Kumar**
-
-GitHub: https://github.com/krashan97
-
-LinkedIn: https://www.linkedin.com/in/krashan-kumar-mca-student/
-
----
-
-## ⭐ Support
-
-If you found this project useful, please consider giving it a ⭐ on GitHub!
